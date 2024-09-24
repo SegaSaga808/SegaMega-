@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shopping Cart</title>
+    <link rel="stylesheet" href="style.css"> <!-- Include your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>My Shopping Cart</h1>
+        <!-- You can add any additional header information here, like navigation links -->
+    </header>
+
+    <main>
+        <section id="cart-items">
+            <h2>Cart Items</h2>
+            <div class="cart-item">
+                <img src="images/product1.jpg" alt="Product 1">
+                <div class="item-details">
+                    <h3>Product 1</h3>
+                    <p>Price: $20</p>
+                    <button onclick="removeFromCart('product1')">Remove</button>
+                </div>
+            </div>
+            <!--Add content to the homepage account soon-->
+        </section>
+
+        <section id="cart-summary">
+            <h2>Cart Summary</h2>
+            <div class="summary-details">
+                <p>Total Items: 1</p>
+                <p>Total Price: $20</p>
+            </div>
+            <button onclick="checkout()">Checkout</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 AeStHeTiC INC. All rights reserved.</p>
+            <p>Designed by Chawanzi Stanley Mwale</p> 
+        </div>
+    </footer>
+    
+</body>
+</html>
